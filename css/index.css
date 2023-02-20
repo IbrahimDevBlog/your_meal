@@ -1,0 +1,22 @@
+/* default */
+@import 'default/normalize.css';
+@import 'default/defalt.css';
+@import 'default/fonts.css';
+
+/* content */
+@import 'content/header.css';
+@import 'content/navigation.css';
+@import 'content/catalog.css';
+@import 'content/order.css';
+@import 'content/product.css';
+@import 'content/footer.css';
+
+/* components */
+@import 'components/count.css';
+
+
+/* modal */
+@import 'modal/modal.css';
+@import 'modal/modal-product.css';
+@import 'modal/modal-delivery.css';
+@import 'modal/ingredients.css';
