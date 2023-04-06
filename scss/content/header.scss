@@ -10,7 +10,7 @@
 
 .header__logo {
 	width: 150px;
-	color: #fff;
+	color: $white;
 	margin: 0 auto 24px;
 
 }
@@ -19,7 +19,7 @@
 	padding-bottom: 246px;
 	background: url('../../img/burger.svg') bottom/227px no-repeat;
 	text-align: center;
-	color: #fff;
+	color: $white;
 }
 
 .header__title {
@@ -34,7 +34,7 @@
 }
 
 .header__title-text_orange {
-	color: #FF5C00;
+	color: $orange-dark;
 }
 
 .header__appeal {
@@ -42,7 +42,7 @@
 	line-height: 16px;
 }
 
-@media (min-width: 480px) {
+@media ($media-sm) {
 	.header {
 		background-size: 1400px;
 		padding-bottom: 44px;
@@ -62,7 +62,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media ($media-md) {
 	.header {
 		background-size: 2540px;
 	}
@@ -80,7 +80,7 @@
 	}
 }
 
-@media (min-width: 1024px) {
+@media ($media-lg) {
 	.header {
 		background-size: 2880px;
 		padding-bottom: 63px;
@@ -105,7 +105,7 @@
 	}
 }
 
-@media (min-width: 1360px) {
+@media ($media-xl) {
 	.header__container {
 		max-width: calc(784px + var(--padding-container) * 2) ;
 	}

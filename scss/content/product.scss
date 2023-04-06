@@ -2,7 +2,7 @@
 	padding: 4px;
 	display: flex;
 	flex-direction: column;
-	background: #FFFFFF;
+	background: $white;
 	border-radius: 12px;
 	min-height: 243px;
 }
@@ -35,7 +35,7 @@
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 130%;
-	color: #B1B1B1;
+	color: $gray;
 	margin-bottom: 7px;
 }
 
@@ -45,11 +45,11 @@
 	line-height: 100%;
 	width: 100%;
 	padding: 9px;
-	background: #F2F2F3;
+	background: $white-bright;
 	border-radius: 8px; /*todo hover*/
 }
 
-@media (min-width: 1024px) {
+@media ($media-lg) {
 	.product {
 		padding: 12px;
 		border-radius: 18px;

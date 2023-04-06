@@ -1,0 +1,25 @@
+/* scss --watch scss/index.scss:css/index.css */
+
+/* default */
+@import 'default/normalize';
+@import 'default/defalt';
+@import 'default/fonts';
+@import 'default/vars';
+
+/* content */
+@import 'content/header';
+@import 'content/navigation';
+@import 'content/catalog';
+@import 'content/order';
+@import 'content/product';
+@import 'content/footer';
+
+/* components */
+@import 'components/count';
+
+
+/* modal */
+@import 'modal/modal';
+@import 'modal/modal-product';
+@import 'modal/modal-delivery';
+@import 'modal/ingredients';

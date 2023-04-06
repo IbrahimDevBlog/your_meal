@@ -1,3 +1,5 @@
+@import 'vars';
+
 html {
 	--container: 300px;
 	--padding-container: 10px;
@@ -14,8 +16,8 @@ body {
 	font-family: Nunito, sans-serif;
 	min-width: 320px;
 	min-height: 100vh;
-	background-color: #F9F9F9;
-	color: #000000;
+	background-color: $white-light;
+	color: $dark;
 	position: relative;
 	overflow-x: hidden;
 }
@@ -84,26 +86,26 @@ input[type=number] {
 	appearance: none;
 }
 
-@media (min-width: 480px) {
+@media ($media-sm) {
 	html {
 		--container: 640px;
 	}
 }
 
-@media (min-width: 768px) {
+@media ($media-md) {
 	html {
 		--padding-container: 64px;
 	}
 }
 
-@media (min-width: 1024px) {
+@media ($media-lg) {
 	html {
 		--container: 960px;
 		--padding-container: 32px;
 	}
 }
 
-@media (min-width: 1360px) {
+@media ($media-xl) {
 	html {
 		--container: 1290px;
 	
