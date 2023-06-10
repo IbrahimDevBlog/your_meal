@@ -51,7 +51,7 @@ $menu: ('burger', 'snack', 'hotdog', 'kombo', 'shawarma', 'pizza', 'vock', 'cake
 
 @each $name in $menu {
 	.navigation__button_#{$name} {
-		background-image: url(../../img/#{$name}.png);
+		background-image: url(../img/#{$name}.png);
 	}
 }
 
