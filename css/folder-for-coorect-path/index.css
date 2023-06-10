@@ -543,31 +543,31 @@ input[type=number] {
   outline-offset: -1px; }
 
 .navigation__button_burger {
-  background-image: url(../img/burger.png); }
+  background-image: url(../../img/burger.png); }
 
 .navigation__button_snack {
-  background-image: url(../img/snack.png); }
+  background-image: url(../../img/snack.png); }
 
 .navigation__button_hotdog {
-  background-image: url(../img/hotdog.png); }
+  background-image: url(../../img/hotdog.png); }
 
 .navigation__button_kombo {
-  background-image: url(../img/kombo.png); }
+  background-image: url(../../img/kombo.png); }
 
 .navigation__button_shawarma {
-  background-image: url(../img/shawarma.png); }
+  background-image: url(../../img/shawarma.png); }
 
 .navigation__button_pizza {
-  background-image: url(../img/pizza.png); }
+  background-image: url(../../img/pizza.png); }
 
 .navigation__button_vock {
-  background-image: url(../img/vock.png); }
+  background-image: url(../../img/vock.png); }
 
 .navigation__button_cake {
-  background-image: url(../img/cake.png); }
+  background-image: url(../../img/cake.png); }
 
 .navigation__button_sauce {
-  background-image: url(../img/sauce.png); }
+  background-image: url(../../img/sauce.png); }
 
 @media (min-width: 768px) {
   .navigation__list {
